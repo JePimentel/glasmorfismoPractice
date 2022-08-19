@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Backdrop-filter</title>
+</head>
+<body>
+    <main>
+        <div class="containerSquare">
+            <div class="container"></div>
+        </div>
+        <div class="controlsContainer">
+            <div class="controls">
+                <label>Color</label>
+                <input type="color" id="color">
+                <label>Transparencia</label>
+                <input type="range" value="1" step=".1" max="1" id="transparency">
+                <label>Difuminado</label>
+                <input type="range" value="0" step="1" max="10" id="blur">
+                <label>Contraste</label>
+                <input type="range" value="0" step=".1" min="1" max="10" id="contrast">
+                <label>Saturación</label>
+                <input type="range" value="1" max="10" id="saturate">
+                <label>Tamaño</label>
+                <input type="range" value="0" step="1" max="500" id="size">
+                <label>Radio del borde</label>
+                <input type="range" value="0" step="1" max="50" id="borderRadius">
+            </div>
+            <div class="code">
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>
